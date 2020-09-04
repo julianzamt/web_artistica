@@ -1,0 +1,91 @@
+body {
+background-color:black;
+color: white;
+font-size: 100%;
+margin-bottom: 1em;
+}
+
+/*Navegador Principal*/
+.navbar li{
+  font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+  background-color: #111;
+}
+
+.img-thumbnail {
+  margin:20px;
+  float: none;
+  cursor:pointer;
+}
+
+#bootstrap-overrides iframe {
+  border: 2px solid #450404;
+  border-radius: 5px;
+}
+
+
+#welcome {
+  max-width: 450px;
+  box-sizing: border-box;
+  border: 10px dotted lightyellow;
+  border-radius: 60px;
+  text-align:center;
+  padding: 3px;
+  margin: 0 auto 2em;
+  color:#E0DFDE;
+  font-family: 'Mulish', sans-serif;
+}
+
+.borde1 {
+  border: groove;
+  border-color:darkred;
+}
+
+
+.salas {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2em;
+}
+
+.visor-container {
+  margin-top: 20px;
+
+}
+
+#sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #070707;
+}
+
+.modal {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.pie-visor {
+  font-family: 'Mulish', sans-serif;
+  color: grey;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+/*modificador del rotulo "otros trabajos"*/
+
+.otros {
+  margin-top:20px;
+  color:rgb(209, 42, 42);
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
